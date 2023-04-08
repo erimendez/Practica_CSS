@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    margin-top: 20px;
+    font-family: 'Josefin Slab', serif;
+    box-sizing: border-box;
+    background-color: #5E503F;
+    text-align: center;
+    font-size: 30px;
+    
+
+    }
+
+    h1, h2 {
+       margin: 0;
+       padding: 0;
+       font-size: 40px;
+         margin-top: 5px;
+         margin-bottom: 5px;
+        color: #22333B;
+        background-color: #EAE0D5;
+     
+     }
+     h3{
+       margin: 0; 
+       text-align: left;
+       font-size: 35px;
+         margin-top: 25px;
+        color: #EAE0D5;
+        background-color: #5E503F;
+     }
+.carrusel{
+    width: 1280px;
+    height: auto;
+	 margin: 20px auto 0;
+	overflow: hidden;
+    
+}
+table, th, td {
+    font-size: 25px;
+    border-style: groove;
+    
+    padding: 10px;
+    background-color: #EAE0D5;
+  
+}
+.procedimiento h3{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    color: #C6AC8F;
+    font-size: 30px;
+}
+.rec_budin{
+    padding: 25px 50px;
+    float: right;
+}
+
+.table_ing{
+    margin: 25px;
+    padding: 50px 25px;
+    float: left;
+}
+.table_contenedor{
+    
+    padding: auto
+    
+}
+.table_pro{
+    
+    width: 50%;
+    margin: auto;
+}
+
+.rec_budin img {
+    padding: 5px ;
+    height: 350px;
+  
+    border-radius: 50px;
+   }
+   
+
+.titulo p {
+    font-family: 'Sacramento', cursive;
+   font-size: 65px;
+position: absolute;
+  right: 25%;
+  left: 25%;
+  color: #EAE0D5;
+  text-shadow:1px 1px 3px black;
+   
+}
+
+fieldset{
+     margin-top: 15px;
+     color: #EAE0D5;
+     
+     
+}
+.contacto input{
+    padding: 5px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 25px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+  
+input[type="submit" i], [type="reset" i]  {
+        width: 20%;
+        
+        cursor: pointer;
+        padding: 5px;
+        margin: 5px 10px 20px 0;
+        border: 1px solid  #C6AC8F;
+        background-color: #22333B;
+        border-radius: 8px 8px 8px 8px;
+        font-size: 30px;
+        font-family: 'Josefin Slab', serif;
+        color: #EAE0D5;
+}
+
+input[type="submit" i]:hover,  [type="reset" i]:hover {
+
+        background-color: #5E503F;
+}
+fieldset legend{
+    text-align: left;
+    font-size: 35px;
+}
+.carrusel ul{
+    display: flex;
+	width: 300%;
+    padding: 0;
+    animation: slide 18s infinite alternate ease-in-out;
+}
+.carrusel li{
+    width: 100%;
+	list-style: none;
+ 
+}
+.carrusel img{
+
+    width: 1275px;
+   height: 660px;
+    border-radius: 25px;
+    border-color: #22333B;
+    border-style: solid;
+    
+    
+}
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.columna {
+    float: left;
+    width: 33%;
+    padding-left: 5px;
+
+}
+
+.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.columna img {
+    
+    width: 100%;
+   
+    height: 300px;
+    object-fit: contain;
+    object-position: bottom;
+    ;
+ 
+
+}
+
+
+
+a {
+    
+    margin-inline:  25px;
+   
+    color: #C6AC8F ;
+    background-color: #22333B  ;
+   
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+
+.enlace{
+    
+
+    padding: 5px 5px 0 ;
+}
+footer {
+ 
+ padding: 20px;
+    background-color: #C6AC8F;
+}
+ header{
+    padding: 20px;
+    background-color: #C6AC8F ;
+ 
+    
+}
